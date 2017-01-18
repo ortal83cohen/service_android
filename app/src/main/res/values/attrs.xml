@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="metricFontStyle" format="enum">
+        <enum name="Black" value="0"/>
+        <enum name="BlackItalic" value="1"/>
+        <enum name="Bold" value="2"/>
+        <enum name="Bold0" value="3"/>
+        <enum name="BoldItalic" value="4"/>
+        <enum name="Light" value="5"/>
+        <enum name="LightItalic" value="6"/>
+        <enum name="Medium" value="7"/>
+        <enum name="MediumItalic" value="8"/>
+        <enum name="Regular" value="9"/>
+        <enum name="Regular_0" value="10"/>
+        <enum name="RegularItalic" value="11"/>
+        <enum name="Semibold" value="12"/>
+        <enum name="SemiboldItalic" value="13"/>
+        <enum name="Thin" value="14"/>
+        <enum name="ThinItalic_0" value="15"/>
+    </attr>
+
+    <declare-styleable name="MetricFontCustomTextView">
+        <attr name="metricFontStyle" />
+        <attr name="cleanHtmlTags" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="EntityDescriptionView">
+        <attr name="withShowMore" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MetricFontCustomEditView">
+        <attr name="metricFontStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="MetricFontCustomButton">
+        <attr name="metricFontStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="MetricFontCustomRadioButton">
+        <attr name="metricFontStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeFlingAdapterView">
+        <!--<attr name="SwipeFlingStyle" format="reference"/>-->
+        <attr name="rotation_degrees" format="float"/>
+        <attr name="min_adapter_stack" format="integer"/>
+        <attr name="max_visible" format="integer"/>
+    </declare-styleable>
+
+    <attr name="maxDots" format="integer"/>
+
+    <declare-styleable name="DotsIndexIndicatorView">
+        <attr name="textSize" format="float"/>
+        <attr name="maxDots" />
+        <attr name="unselectedColor" format="color"/>
+        <attr name="selectedColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="TodoCardsView">
+        <attr name="maxDots" />
+    </declare-styleable>
+
+</resources>

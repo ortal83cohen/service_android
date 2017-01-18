@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name_notification_title">Service Anywhere Portal</string>
+    <string name="request_resolved_notification_title">请求已处理</string>
+    <string name="pending_approval_notification_title">待批准</string>
+    <string name="provide_more_information_notification_title">提供更多信息</string>
+    <string name="request_resolved_reject_action_text">拒绝</string>
+    <string name="request_resolved_accept_action_text">接受</string>
+    <string name="pending_approval_deny_action_text">拒绝</string>
+    <string name="pending_approval_approve_action_text">批准</string>
+    <string name="provide_more_information_comment_action_text">注释</string>
+    <string name="provide_more_information_mark_as_solved_action_text">标记为已解决</string>
+    <string name="multiple_requests_solved_notification_title">%1$d 请求已处理</string>
+    <string name="multiple_pending_approvals_notification_title">%1$d 待批准</string>
+    <string name="multiple_requests_awaiting_feedback_notification_title">%1$d 请求等待反馈</string>
+</resources>

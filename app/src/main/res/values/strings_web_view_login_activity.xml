@@ -1,0 +1,5 @@
+<resources>
+    <string name="title_activity_web_view_login">WebViewLoginActivity</string>
+    <string name="session_failed_error">Failed to initialize session</string>
+    <string name="missing_mandatory_error">Error: Mandatory extra values are missing!</string>
+</resources>

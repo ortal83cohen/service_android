@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="actionbar_status_bar_height">72dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="greeting_margin_top">66dp</dimen>
+</resources>

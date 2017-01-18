@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hpe.sb.mobile.app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission
+        android:name="${applicationId}.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".ServiceBrokerApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name_long"
+        android:theme="@style/AppTheme.NoActionBar.NoStatusBar">
+
+        <activity
+            android:name=".features.router.DeepLinkingRouterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <data
+                    android:host="msast001pngx.saas.hp.com"
+                    android:scheme="https" />
+                <data
+                    android:host="msast002pngx.saas.hp.com"
+                    android:scheme="https" />
+                <data
+                    android:host="mskml001pngx.saas.hp.com"
+                    android:scheme="https" />
+                <data
+                    android:host="mslon001pngx.saas.hp.com"
+                    android:scheme="https" />
+                <data
+                    android:host="mspar001pngx.saas.hp.com"
+                    android:scheme="https" />
+                <data
+                    android:host="msrdg001pngx.saas.hp.com"
+                    android:scheme="https" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".features.router.RouterActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="login"
+                    android:scheme="propel" />
+                <data
+                     android:host="login"
+                     android:scheme="com.saw.mobile.portal"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".features.home.MainActivity"
+            android:label="" />
+        <activity
+            android:name=".features.login.activities.WebViewLoginActivity"
+            android:label="" />
+        <activity
+            android:name=".features.login.activities.ChangingDestinationActivity"
+            android:label="" />
+        <activity
+            android:name=".features.login.activities.PreLoginActivity"
+            android:label="@string/title_activity_pre_login" />
+        <activity
+            android:name=".features.request.NewRequestActivity"
+            android:label="@string/title_activity_new_request"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".features.detailsActivity.DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".features.home.MainActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".features.login.activities.ProgrammaticLoginActivity"
+            android:label="@string/title_activity_programmatic_login" />
+        <activity android:name=".features.catalog.CategoryPageActivity" />
+        <activity
+            android:name=".features.request.UnsupportedOfferingActivity"
+            android:label="@string/title_unsupported_offering" />
+        <activity
+            android:name=".features.article.ArticleActivity"
+            android:label="@string/title_unsupported_article" />
+
+        <activity android:name=".features.search.SearchResultsActivity" />
+
+
+        <activity
+            android:name=".features.error.PageNotFoundActivity"
+            android:label="@string/title_activity_page_not_found"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".features.error.PageNotPermittedActivity"
+            android:label="@string/title_activity_page_not_permitted"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".features.googlepushnotification.gcm.GcmListenerServiceImpl"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".features.googlepushnotification.gcm.InstanceIDListenerServiceImpl"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".features.googlepushnotification.gcm.GcmRegistrationIntentService"
+            android:exported="false" />
+        <service
+            android:name=".features.googlepushnotification.GooglePushNotificationActionsService"
+            android:exported="false" />
+
+        <service
+            android:name=".features.googlepushnotification.GcmRegistrationJobService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name=".features.login.activities.CaptureActivityAnyOrientation"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <provider
+            android:name=".infra.db.DbProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false" />
+    </application>
+
+</manifest>

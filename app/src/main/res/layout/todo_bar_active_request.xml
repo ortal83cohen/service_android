@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/TodoBar.ActiveRequest"
+              android:clipToPadding="false"
+    >
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/barTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="Metric"
+        android:text="@string/activeRequest"
+        android:textColor="#ffffff"
+        android:textSize="21sp"
+        />
+
+</LinearLayout>

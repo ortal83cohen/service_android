@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="deny">Nega</string>
+    <string name="approve">Approva</string>
+    <string name="requestedBy">Richiedente:</string>
+    <string name="request">Richiesta</string>
+    <string name="approvalType">Tipo approvazione:</string>
+    <string name="approvalTask">Compito approvazione:</string>
+    <string name="pendingApproval">IN ATTESA DI APPROVAZIONE</string>
+    <string name="pendingYourApproval">In attesa della tua approvazione</string>
+
+    <string name="provideMoreInformation">Specifica maggiori informazioni</string>
+    <string name="openedFor">Aperta per</string>
+    <string name="openedForDotSeparator">•</string>
+    <string name="new_comment">NUOVO COMMENTO</string>
+    <string name="submitted">INVIATA</string>
+    <string name="comment">Commento</string>
+    <string name="markAsSolved">Risolta?</string>
+
+    <string name="activeRequest">La tua richiesta</string>
+
+    <string name="requestResolved">Richiesta risolta</string>
+    <string name="accept">Accetta</string>
+    <string name="reject">Rifiuta</string>
+
+    <string name="solution">Soluzione:</string>
+    <string name="solution_provided">SOLUZIONE FORNITA</string>
+
+
+    <string name="show_more">Mostra altro</string>
+    <string name="show_less">Mostra meno</string>
+    <string name="description">Descrizione</string>
+    <string name="opened_for">• Aperta per</string>
+    <string name="interaction_history">Cronologia interazioni (%s)</string>
+    <string name="failed_to_add_comment_msg">"Il commento non è stato aggiunto alla richiesta. Riprova."</string>
+
+
+    <string name="title_activity_details">DETTAGLI RICHIESTA</string>
+    <string name="title_additional_details">ALTRI DETTAGLI</string>
+    <string name="see_request_details">Altri dettagli</string>
+
+    <!--animations-->
+    <string name="request_accepted">Soluzione accettata</string>
+    <string name="request_rejected">Soluzione respinta</string>
+    <string name="request_approved">Richiesta approvata</string>
+    <string name="request_denied">Richiesta rifiutata</string>
+    <string name="request_solved">Richiesta risolta</string>
+    <string name="deny_task_dialog_fill_denial_reason">Indica il motivo del rifiuto</string>
+    <string name="deny_task_dialog_comment_hint">Tocca per inserire il testo</string>
+    <string name="deny_task_dialog_cancel_button_text">ANNULLA</string>
+    <string name="deny_task_dialog_done_button_text">FINE</string>
+
+    <!--date time-->
+    <string name="date_time_format_days_ago">%s giorni fa</string>
+    <string name="date_time_format_single_day_ago">%s giorno fa</string>
+    <string name="date_time_format_hours_ago">%s ore fa</string>
+    <string name="date_time_format_single_hour_ago">%s ora fa</string>
+    <string name="date_time_format_min_ago">%s min fa</string>
+    <string name="date_time_format_sec_ago">%s sec fa</string>
+</resources>

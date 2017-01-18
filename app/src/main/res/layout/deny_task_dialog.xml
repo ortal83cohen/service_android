@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/deny_task_dialog"
+              android:layout_width="333dp"
+              android:layout_height="294dp"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              android:paddingLeft="23dp"
+              android:paddingRight="23dp"
+              android:layout_marginTop="@dimen/status_bar_height"
+    >
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/deny_task_dialog_fill_denial_reason"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomEditView
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bordered_edit_text"
+        android:gravity="top|start"
+        android:hint="@string/deny_task_dialog_comment_hint"
+        android:inputType="textMultiLine"
+        android:maxLines="6"
+        android:minLines="5"
+        android:scrollbars="vertical"
+        android:textColorHint="@color/hint_text_color"
+
+    />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:orientation="horizontal">
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+            android:id="@+id/cancel_button"
+            android:layout_width="134dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_border"
+            android:clickable="true"
+            android:text="@string/deny_task_dialog_cancel_button_text"
+            android:textColor="#646464"
+            android:textSize="21sp"
+            android:elevation="0dp"
+            style="?android:attr/borderlessButtonStyle"
+        />
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+            android:id="@+id/done_button"
+            android:layout_width="134dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:background="@drawable/button_background"
+            android:enabled="false"
+            android:text="@string/deny_task_dialog_done_button_text"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

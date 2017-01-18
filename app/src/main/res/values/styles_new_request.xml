@@ -1,0 +1,49 @@
+<resources>
+    <style name="Button" parent="@style/TextStyle.Button">
+        <item name="android:textColor">@color/text_button_enabled</item>
+        <item name="android:layout_marginTop">19dp</item>
+        <item name="android:minWidth">134dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingBottom">17dp</item>
+        <item name="android:paddingTop">17dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Button.StateChange">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+    <style name="Button.StateChange.Submit">
+        <item name="android:background">@color/new_request_theme_color</item>
+    </style>
+    <style name="Button.StateChange.Next">
+        <item name="android:text">@string/next_button</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+    <style name="NewRequestBorderedEditText" parent="TextStyle.Input">
+        <item name="android:background">@drawable/bordered_edit_text</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:minLines">2</item>
+        <item name="android:maxLines">6</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:overScrollMode">always</item>
+        <item name="android:gravity">top|start</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+    </style>
+    <style name="new_request_item_view_box">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/new_request_view_items_background</item>
+        <item name="android:paddingRight">22dp</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_margin">11dp</item>
+        <!--<item name="android:layout_marginBottom">8dp</item>-->
+    </style>
+
+</resources>

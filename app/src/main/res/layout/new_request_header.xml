@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_height"
+        android:background="@color/new_request_theme_color" />
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_request_header"
+        android:background="@color/new_request_theme_color">
+
+        <ImageView
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="?android:selectableItemBackground"
+            android:minHeight="44dp"
+            android:clickable="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="13dp"
+            android:src="@drawable/quit" />
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            android:id="@+id/textView"
+            style="@style/TextStyle.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/quit"
+            android:text="@string/new_request_header_text"
+            app:metricFontStyle="Regular" />
+        <!--<ImageView-->
+        <!--android:id="@+id/arrow_up"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/arrowup"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toStartOf="@id/divider"-->
+        <!--android:layout_toLeftOf="@id/divider"/>-->
+        <!--<ImageView-->
+        <!--android:id="@+id/arrow_down"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/arrowdown"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="19dp"-->
+        <!--android:layout_marginEnd="19dp"-->
+        <!--/>-->
+        <!--<ImageView-->
+        <!--android:id="@+id/divider"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@drawable/headerdivider"-->
+        <!--android:layout_toStartOf="@id/arrow_down"-->
+        <!--android:layout_toLeftOf="@id/arrow_down"-->
+        <!--android:layout_marginEnd="17dp"-->
+        <!--android:layout_marginRight="17dp"-->
+        <!--android:layout_marginStart="17dp"-->
+        <!--android:layout_marginLeft="17dp"-->
+        <!--/>-->
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/offering_header"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/new_request_theme_color">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/new_request_offering_header_background" />
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            android:id="@+id/offering_header_text"
+            style="@style/TextStyle.Header.SubHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1" />
+    </RelativeLayout>
+</LinearLayout>

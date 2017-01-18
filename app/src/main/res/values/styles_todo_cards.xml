@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TodoBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="TodoBar.Approval" parent="style/TodoBar">
+        <item name="android:background">@color/approvalCard</item>
+    </style>
+
+    <style name="TodoBar.Feedback" parent="style/TodoBar">
+        <item name="android:background">@color/feedbackCard</item>
+    </style>
+
+    <style name="TodoBar.Resolved" parent="style/TodoBar">
+        <item name="android:background">@color/request_resolved_card_accept_text_visible_color</item>
+    </style>
+
+    <style name="TodoBar.ActiveRequest" parent="style/TodoBar">
+        <item name="android:background">@color/activeRequestCard</item>
+    </style>
+
+    <style name="TodoBarIcon">
+        <item name="android:layout_width">43dp</item>
+        <item name="android:layout_height">43dp</item>
+    </style>
+
+    <style name="TodoCard">
+        <item name="android:layout_width">339dp</item>
+        <item name="android:layout_height">312dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="cardTitleText" parent="TextStyleFixed.Title.ExtraLarge.Black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">70dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">23dp</item>
+        <item name="android:layout_marginRight">23dp</item>
+    </style>
+
+    <style name="cardMoreDetailsText" parent="TextStyleFixed.Details.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="metricFontStyle">Light</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginLeft">23dp</item>
+        <item name="android:layout_marginRight">23dp</item>
+    </style>
+
+    <style name="cardEntityPropertyNameText" parent="TextStyleFixed.Details.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginLeft">23dp</item>
+        <item name="android:layout_marginRight">23dp</item>
+    </style>
+
+    <style name="cardEntityPropertyValueText" parent="TextStyleFixed.Details">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginLeft">23dp</item>
+        <item name="android:layout_marginRight">23dp</item>
+    </style>
+
+    <style name="pendingApprovalText" parent="cardEntityPropertyNameText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="metricFontStyle">Semibold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/approvalCard</item>
+        <item name="android:layout_marginLeft">23dp</item>
+        <item name="android:layout_marginRight">23dp</item>
+    </style>
+
+    <style name="metaphaseValueText" parent="pendingApprovalText">
+        <item name="android:textColor">@color/request_resolved_card_accept_text_visible_color</item>
+    </style>
+
+    <style name="feedbackRequestSubmittedText" parent="pendingApprovalText">
+        <item name="android:textColor">@color/feedbackCard</item>
+    </style>
+
+    <style name="todoBarIcon">
+        <item name="android:layout_width">51dp</item>
+        <item name="android:layout_height">51dp</item>
+        <item name="android:layout_gravity">top|start</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="cardButton" parent="TextStyleFixed.ActionButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">top|start</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

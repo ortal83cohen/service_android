@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:sbmobile="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/ViewColorPickerHelper"
+        android:layout_width="1dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="?android:attr/dividerVertical"/>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+        android:id="@+id/card_button_left"
+        style="@style/cardButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/ViewColorPickerHelper"
+        android:layout_toStartOf="@id/ViewColorPickerHelper"
+        android:drawableLeft="@drawable/icon_deny"
+        android:drawableStart="@drawable/icon_deny"
+        android:paddingLeft="54dp"
+        android:paddingRight="54dp"
+        android:text="@string/deny"
+        />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+        android:id="@+id/card_button_right"
+        style="@style/cardButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/ViewColorPickerHelper"
+        android:layout_toRightOf="@id/ViewColorPickerHelper"
+        android:drawableLeft="@drawable/icon_approve"
+        android:drawableStart="@drawable/icon_approve"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/approve"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_not_permitted_title_1">SORRY,</string>
+    <string name="page_not_permitted_title_2">WE CAN’T YET LAND HERE</string>
+    <string name="page_not_permitted_line1">You don’t have the appropriate permissions</string>
+    <string name="page_not_permitted_line2">to access the location you were trying to reach.</string>
+    <string name="page_not_permitted_line3">Contact your system administrator for help.</string>
+    <string name="page_not_permitted_action">RETURN HOME</string>
+
+    
+</resources>

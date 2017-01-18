@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/new_request_background"
+        android:id="@+id/new_request_choose_related_entity">
+
+    <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nested_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/new_request_item_view_box">
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="14dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                tools:showIn="@layout/activity_new_request">
+
+            <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_offering"
+                    android:textSize="18sp"
+                    android:paddingRight="22dp"
+                    android:paddingLeft="22dp"
+                    app:metricFontStyle="Regular"/>
+
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/related_entities"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"/>
+
+            <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/show_other_options_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_found_offering_search_result"
+                    android:textSize="18sp"
+                    android:layout_marginTop="23dp"
+                    android:paddingRight="22dp"
+                    android:paddingLeft="22dp"
+                    android:layout_gravity="bottom"
+                    android:textColor="@color/new_request_not_found_offering"
+                    android:clickable="true"
+                    android:onClick="onCantFindEntityInSearchResult"
+                    app:metricFontStyle="Regular"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

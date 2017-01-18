@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="describe_new_request">How can we help?</string>
+    <string name="description_hint">Enter text</string>
+    <string name="next_button">NEXT</string>
+    <string name="speech_prompt">Tell us me what is your problem?</string>
+    <string name="yes_or_no">Yes or No?</string>
+    <string name="did_you_mean">"did you mean %1$s, reply yes or no"</string>
+    <string name="speech_not_supported">Voice input is currently not supported by your device\"</string>
+    <string name="microphone_button">Microphone button</string>
+    <string name="title_activity_new_request">NEW REQUEST</string>
+    <string name="select_offering">Do these help? Tap an option</string>
+    <string name="almost_there">ALMOST THERE!</string>
+    <string name="all_done">You can go up to review your request details</string>
+    <string name="or">OR</string>
+    <string name="submit_request">SUBMIT REQUEST</string>
+    <string name="request_submitted_text">YOUR REQUEST HAS BEEN SUBMITTED</string>
+    <string name="created_request_id">Request no.
+        <xliff:g id="requestId" example="64726655">%1$s</xliff:g>
+    </string>
+    <string name="tracking_page_button">VIEW REQUEST</string>
+    <string name="home_button">DONE</string>
+    <string name="new_request_header_text">NEW REQUEST</string>
+    <string name="new_request_unsaved_changes_warning">Your request will be lost</string>
+    <string name="new_request_categories_title">Which category best fits your request?</string>
+    <string name="new_request_category_offerings_header">Category: %1$s</string>
+    <string name="not_found_offering_search_result">Show me other options</string>
+    <string name="not_found_offering_categories">Still can\'t find what you are looking for?</string>
+    <string name="new_request_general_request_header">General request</string>
+
+</resources>

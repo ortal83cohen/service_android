@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="greeting_morning">Guten Morgen, %s!</string>
+    <string name="greeting_afternoon">Guten Tag, %s!</string>
+    <string name="greeting_evening">Guten Abend, %s!</string>
+    <string name="greeting_night">Gute Nacht, %s!</string>
+
+</resources>

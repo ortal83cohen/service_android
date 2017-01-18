@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/new_request_background"
+              android:orientation="vertical"
+              android:paddingLeft="50dp"
+              android:paddingRight="50dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/almost_there_illustration"/>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:text="@string/almost_there"
+        style="@style/TextStyle.Title.ConfirmationMessage.Black"
+        />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        style="@style/TextStyle.Details"
+        android:text="@string/all_done"
+        />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/or"
+        style="@style/TextStyle.Details"
+        />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+        android:id="@+id/submit_button"
+        style="@style/Button.StateChange.Submit"
+        android:minWidth="@dimen/submit_button_width"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/submit_request"/>
+    <com.hpe.sb.mobile.app.common.uiComponents.gifView.CustomGifView
+        android:id="@+id/loading_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+</LinearLayout>

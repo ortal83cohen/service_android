@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hpe.sb.mobile.app.common.uiComponents.categories.view.CategoryCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:sbmobile="http://schemas.android.com/tools"
+    android:id="@+id/category_card"
+    android:layout_width="match_parent"
+    android:layout_height="119dp"
+    card_view:cardBackgroundColor="@android:color/white"
+    android:layout_gravity="center"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="2dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:background="@drawable/selected_related_entity"
+		android:padding="12dp">
+
+		<ImageView
+			android:id="@+id/selected_image"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/selectionv"
+			android:visibility="gone"
+			sbmobile:ignore="ContentDescription"/>
+
+	    <LinearLayout
+	        android:id="@+id/category_content"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+			android:layout_gravity="center_vertical|center_horizontal"
+	        android:orientation="vertical">
+
+	        <ImageView
+	            android:id="@+id/category_image"
+	            android:layout_width="45dp"
+	            android:layout_height="45dp"
+	            android:scaleType="fitCenter"
+				sbmobile:ignore="ContentDescription"/>
+
+	        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+	            android:id="@+id/category_title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="18dp"
+	            android:gravity="top|center"
+	            android:textAllCaps="true"
+	            android:textColor="@android:color/white"
+	            android:textSize="13sp"
+	            android:maxLines="2"
+	            android:ellipsize="end"
+	            sbmobile:metricFontStyle="Regular"/>
+	    </LinearLayout>
+    </FrameLayout>
+
+</com.hpe.sb.mobile.app.common.uiComponents.categories.view.CategoryCardView>

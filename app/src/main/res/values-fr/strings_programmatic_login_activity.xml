@@ -1,0 +1,6 @@
+<resources>
+    <string name="title_activity_programmatic_login">ProgrammaticLoginActivity</string>
+    <string name="username_field_text">Nom d’utilisateur :</string>
+    <string name="password_field_text">Mot de passe :</string>
+    <string name="submitCredentialsButtonText">Envoyer</string>
+</resources>

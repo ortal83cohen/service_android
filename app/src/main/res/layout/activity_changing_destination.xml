@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/changetenant_a_side" />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_gravity="center"
+            android:src="@drawable/error_change_tenant" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/changetenant_b_side"
+        android:layout_gravity="right" />
+
+
+</FrameLayout>
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            style="@style/TextStyle.Title.Large.bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:gravity="center"
+            android:text="@string/changing_destination"
+            android:textStyle="bold" />
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            style="@style/TextStyle.Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/you_re_about_to_activate_a_different_portal" />
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            style="@style/TextStyle.Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/you_will_have_to_log_in_again" />
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            style="@style/TextStyle.Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/stay_here_or_change_to_different_portal" />
+
+
+    </LinearLayout>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+        android:id="@+id/keep"
+        style="@style/TextStyle.Button.Black"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/grey_button"
+        android:padding="10dp"
+        android:text="KEEP CURRENT PORTAL" />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+        android:id="@+id/change"
+        style="@style/TextStyle.Button"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/green_button"
+        android:text="CHANGE PORTAL" />
+
+</FrameLayout>

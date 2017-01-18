@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            xmlns:sbmobile="http://schemas.android.com/apk/res-auto"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="11dp"
+        android:background="@color/new_request_view_items_background"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/nested_scroll_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp">
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/nested_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:id="@+id/scroll_content_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="14dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@color/category_page_related_entity_item_border"
+                        android:gravity="top"
+                        android:orientation="horizontal"
+                        android:showDividers="end">
+
+                        <com.hpe.sb.mobile.app.common.uiComponents.entityIcon.EntityIconImageView
+                            android:id="@+id/entity_icon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                                    android:id="@+id/entity_title"
+                                    style="@style/TextStyle.Title.Large"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="6dp"
+                                    android:layout_weight="9"/>
+
+                                <ImageView
+                                    android:id="@+id/popular_icon"
+                                    android:layout_width="0dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/popular"/>
+                            </LinearLayout>
+
+                            <com.hpe.sb.mobile.app.common.uiComponents.entityBadge.EntityBadgeView
+                                android:id="@+id/badge"
+                                style="@style/TextStyle.Categories"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/separator"
+                        />
+
+                    <com.hpe.sb.mobile.app.common.uiComponents.commonLayout.EntityDescriptionView
+                        android:id="@+id/entity_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        sbmobile:withShowMore="false"
+                        />
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/next_button_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/next_button_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/offering_description_separator"
+                />
+
+            <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+                android:id="@+id/next_button"
+                style="@style/Button.StateChange.Next"
+                android:layout_gravity="end"
+                android:text="@string/next_button"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

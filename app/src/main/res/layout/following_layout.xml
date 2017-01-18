@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#eeeeee"
+    android:layout_marginLeft="@dimen/default_margin"
+    android:layout_marginRight="@dimen/default_margin"
+    android:visibility="gone"
+    android:id="@+id/following_layout"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="23dp"
+        android:gravity="center"
+        android:src="@drawable/ic_follow" />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        style="@style/TextStyle.Title.black"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:text="@string/you_are_following_this_request"
+        android:textStyle="bold" />
+</LinearLayout>

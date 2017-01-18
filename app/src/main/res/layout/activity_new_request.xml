@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/creation_flow_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/new_request_background"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/new_request_header"
+            android:transitionName="new_request_header_shared" />
+
+
+        <com.hpe.sb.mobile.app.common.uiComponents.gifView.CustomGifView
+            android:id="@+id/loading_gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="100dp"
+            android:visibility="gone" />
+
+        <com.hpe.sb.mobile.app.features.request.recycleview.SnappyRecyclerView
+            android:id="@+id/new_request_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/request_submitted_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/request_submitted_background"
+        android:visibility="invisible" />
+
+    <include layout="@layout/request_submitted" />
+</FrameLayout>

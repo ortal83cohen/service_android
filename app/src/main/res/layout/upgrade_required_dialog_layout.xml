@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="280dp"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              android:paddingLeft="35dp"
+              android:paddingRight="35dp"
+              android:layout_marginTop="@dimen/status_bar_height"
+    >
+
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/upgrade_required_good_news"
+        style="@style/TextStyle.Title.Large"
+
+    />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upgrade_required_new_version_available"
+        android:layout_marginTop="4dp"
+        style="@style/TextStyle.Title.Large"
+    />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+        android:id="@+id/done_button"
+        style="@style/dialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/upgrade_required_update_app"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+    />
+</LinearLayout>

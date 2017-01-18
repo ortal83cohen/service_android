@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="greeting_morning">%s さん、おはようございます</string>
+    <string name="greeting_afternoon">%s さん、こんにちは</string>
+    <string name="greeting_evening">%s さん、こんばんは</string>
+    <string name="greeting_night">%s さん、おやすみなさい</string>
+
+</resources>

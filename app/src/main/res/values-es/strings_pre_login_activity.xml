@@ -1,0 +1,15 @@
+<resources>
+    <string name="load_url">Activar</string>
+    <string name="type_url_done">Terminado</string>
+    <string name="title_activity_pre_login">PreLoginActivity</string>
+    <string name="welcome_pre_login">Bienvenido a Service Anywhere</string>
+    <string name="scan_QR_message_pre_login">Para activar la aplicación, escanee el código QR de activación en el portal</string>
+    <string name="scan_QR_button_pre_login">Escanear QR</string>
+    <string name="dont_have_QR_pre_login">¿No tiene código QR de activación?</string>
+    <string name="get_QR_info_pre_login">Abra el portal y seleccione Activar aplicación móvil en el menú y siga las instrucciones de QR</string>
+    <string name="use_manual_URL_pre_login">O bien utilice la dirección URL de activación manual</string>
+    <string name="type_URL_pre_login">Escribir URL de activación</string>
+    <string name="scan_qr_code_prompt">Coloque el código de barras dentro del rectángulo para escanearlo.</string>
+    <string name="tenant_unsupported_on_mobile_msg_txt">La aplicación móvil no está habilitada en estos momentos para el portal de HPE Service Anywhere. Para más información, póngase en contacto con TI</string>
+    <string name="tenant_unsupported_on_mobile_button_txt">Listo</string>
+</resources>

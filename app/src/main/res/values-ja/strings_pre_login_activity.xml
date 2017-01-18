@@ -1,0 +1,15 @@
+<resources>
+    <string name="load_url">アクティブにする</string>
+    <string name="type_url_done">完了</string>
+    <string name="title_activity_pre_login">PreLoginActivity</string>
+    <string name="welcome_pre_login">Service Anywhere にようこそ</string>
+    <string name="scan_QR_message_pre_login">アプリケーションをアクティブ化するには、ポータルからアクティベーション QR をスキャンします</string>
+    <string name="scan_QR_button_pre_login">QR のスキャン</string>
+    <string name="dont_have_QR_pre_login">アクティベーション QR がない場合</string>
+    <string name="get_QR_info_pre_login">ポータルを開いて、メニューから [モバイルアプリのアクティブ化] を選択し、QR の指示に従います</string>
+    <string name="use_manual_URL_pre_login">または、手動アクティベーション URL を使用します</string>
+    <string name="type_URL_pre_login">アクティベーション URL の入力</string>
+    <string name="scan_qr_code_prompt">四角形の内側にバーコードを配置してスキャンします。</string>
+    <string name="tenant_unsupported_on_mobile_msg_txt">現在、HPE Service Anywhere ポータルでモバイルアプリが有効になっていません。詳細については IT にお問い合わせください。</string>
+    <string name="tenant_unsupported_on_mobile_button_txt">完了</string>
+</resources>

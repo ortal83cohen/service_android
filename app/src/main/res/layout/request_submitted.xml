@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/request_submitted"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingRight="50dp"
+              android:paddingLeft="50dp"
+        >
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/request_done_illustration"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"/>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/request_submitted_text"
+        style="@style/TextStyle.Title.ConfirmationMessage"
+        />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/request_number_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:gravity="center"
+        style="@style/TextStyle.ConfirmationMessage"
+        />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+            android:id="@+id/new_request_tracking_button"
+            style="@style/Button"
+            android:text="@string/tracking_page_button"
+            android:layout_marginTop="57dp"
+            android:layout_gravity="center"
+            android:enabled="true"
+            android:background="@drawable/new_request_track_button_background"
+            />
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomButton
+        android:id="@+id/new_request_home_button"
+        style="@style/Button"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/new_request_home_button_background"
+        android:text="@string/home_button"
+        android:textColor="@color/new_request_theme_color"/>
+</LinearLayout>

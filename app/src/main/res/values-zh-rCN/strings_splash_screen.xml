@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_screen_logo">初始屏幕徽标</string>
+    <string name="splash_screen_error_unable_to_initialize_app">无法启动应用程序</string>
+    <string name="application_start_error">应用程序无法启动，请联系 IT</string>
+</resources>

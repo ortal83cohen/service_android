@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Do not use this file! You should add a new file under res/values with the name strings_<your activity / fragment name>.xml -->
+
+
+
+    <string name="hello_world">Bonjour !</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_logout">Déconnexion</string>
+    <string name="get_request">Cliquez pour obtenir la demande de la passerelle</string>
+    <string name="title_activity_rest_example">Activité exemple REST</string>
+    <string name="navigate_to_rest_activity_example">Passer à l’activité exemple REST</string>
+    <string name="category_page_related_entity_image_content">category page related_entity image</string>
+    <string name="category_page_related_entity_popular_image_content">category page related entity popular image</string>
+    <string name="back_icon_content">retour</string>
+    <string name="filter_icon_content">filtrer</string>
+    <string name="search_icon_content">rechercher</string>
+    <string name="refresh_cards_example">Actualiser les cartes</string>
+    <string name="search">Rechercher</string>
+    <string name="validation">VALIDATION</string>
+    <string name="service_badge_text">SERVICE</string>
+    <string name="support_badge_text">SUPPORT</string>
+    <string name="article_badge_text">ARTICLE</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="general_error">Désolé, une erreur s’est produite</string>
+
+    <!-- Browse categories-->
+    <string name="categories_pane_title">Parcourir les catégories</string>
+
+    <string name="new_updates_available">Nouvelles mises à jour disponibles</string>
+
+    <string name="welcome_text">bienvenue</string>
+    <string name="submitting">Envoi en cours</string>
+    <string name="no_internet_connection">Pas de connexion, veuillez réessayer</string>
+    <string name="upgrade_required_good_news">Bonne nouvelle !</string>
+    <string name="upgrade_required_new_version_available">Une nouvelle version est disponible</string>
+    <string name="upgrade_required_update_app">mettre à jour l\'application</string>
+    <string name="unable_to_log_out">Déconnexion impossible</string>
+
+
+</resources>

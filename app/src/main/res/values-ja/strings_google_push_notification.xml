@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name_notification_title">Service Anywhere Portal</string>
+    <string name="request_resolved_notification_title">依頼解決済み</string>
+    <string name="pending_approval_notification_title">承認待ち</string>
+    <string name="provide_more_information_notification_title">詳細な情報の提供</string>
+    <string name="request_resolved_reject_action_text">拒否</string>
+    <string name="request_resolved_accept_action_text">承認</string>
+    <string name="pending_approval_deny_action_text">否認</string>
+    <string name="pending_approval_approve_action_text">承認</string>
+    <string name="provide_more_information_comment_action_text">コメント</string>
+    <string name="provide_more_information_mark_as_solved_action_text">解決済みにする</string>
+    <string name="multiple_requests_solved_notification_title">%1$d 件の依頼が解決済み</string>
+    <string name="multiple_pending_approvals_notification_title">%1$d 件が承認待ち</string>
+    <string name="multiple_requests_awaiting_feedback_notification_title">%1$d 件の依頼がフィードバック待ち</string>
+</resources>

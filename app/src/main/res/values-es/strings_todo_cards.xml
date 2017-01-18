@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="deny">Denegar</string>
+    <string name="approve">Aprobar</string>
+    <string name="requestedBy">Emisor de la petición:</string>
+    <string name="request">Petición</string>
+    <string name="approvalType">Tipo de aprobación:</string>
+    <string name="approvalTask">Tarea de aprobación:</string>
+    <string name="pendingApproval">APROBACIÓN PENDIENTE</string>
+    <string name="pendingYourApproval">Pendiente de su aprobación</string>
+
+    <string name="provideMoreInformation">Proporcione más información</string>
+    <string name="openedFor">Abierto para</string>
+    <string name="openedForDotSeparator">•</string>
+    <string name="new_comment">NUEVO COMENTARIO</string>
+    <string name="submitted">ENVIADO</string>
+    <string name="comment">Comentario</string>
+    <string name="markAsSolved">Marcar como resuelto</string>
+
+    <string name="activeRequest">Su petición</string>
+
+    <string name="requestResolved">Petición resuelta</string>
+    <string name="accept">Aceptar</string>
+    <string name="reject">Rechazar</string>
+
+    <string name="solution">Solución:</string>
+    <string name="solution_provided">SOLUCIÓN OFRECIDA</string>
+
+
+    <string name="show_more">Mostrar más</string>
+    <string name="show_less">Mostrar menos</string>
+    <string name="description">Descripción</string>
+    <string name="opened_for">• Abierto para</string>
+    <string name="interaction_history">Historial de interacción (%s)</string>
+    <string name="failed_to_add_comment_msg">"Lo sentimos, su comentario no se añadió a la petición. Vuelva a intentarlo."</string>
+
+
+    <string name="title_activity_details">DETALLES DE LA PETICIÓN</string>
+    <string name="title_additional_details">DETALLES ADICIONALES</string>
+    <string name="see_request_details">Detalles adicionales</string>
+
+    <!--animations-->
+    <string name="request_accepted">Solución aceptada</string>
+    <string name="request_rejected">Solución rechazada</string>
+    <string name="request_approved">Petición aprobada</string>
+    <string name="request_denied">Petición denegada</string>
+    <string name="request_solved">Petición resuelta</string>
+    <string name="deny_task_dialog_fill_denial_reason">Cumplimente el motivo de la denegación</string>
+    <string name="deny_task_dialog_comment_hint">Puntee para introducir texto</string>
+    <string name="deny_task_dialog_cancel_button_text">Cancelar</string>
+    <string name="deny_task_dialog_done_button_text">LISTA</string>
+
+    <!--date time-->
+    <string name="date_time_format_days_ago">Hace %s días</string>
+    <string name="date_time_format_single_day_ago">Hace %s día</string>
+    <string name="date_time_format_hours_ago">Hace %s horas</string>
+    <string name="date_time_format_single_hour_ago">Hace %s hora</string>
+    <string name="date_time_format_min_ago">Hace %s min</string>
+    <string name="date_time_format_sec_ago">Hace %s s</string>
+</resources>

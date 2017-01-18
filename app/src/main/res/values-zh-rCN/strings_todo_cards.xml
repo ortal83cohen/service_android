@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="deny">拒绝</string>
+    <string name="approve">批准</string>
+    <string name="requestedBy">请求者:</string>
+    <string name="request">请求</string>
+    <string name="approvalType">批准类型:</string>
+    <string name="approvalTask">批准任务:</string>
+    <string name="pendingApproval">待定批准</string>
+    <string name="pendingYourApproval">等待您的批准</string>
+
+    <string name="provideMoreInformation">提供更多信息</string>
+    <string name="openedFor">请求发起人</string>
+    <string name="openedForDotSeparator">•</string>
+    <string name="new_comment">新建注释</string>
+    <string name="submitted">已提交</string>
+    <string name="comment">注释</string>
+    <string name="markAsSolved">标记为已解决</string>
+
+    <string name="activeRequest">您的请求</string>
+
+    <string name="requestResolved">请求已被解决</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒绝</string>
+
+    <string name="solution">解决方案:</string>
+    <string name="solution_provided">已提供解决方案</string>
+
+
+    <string name="show_more">展开</string>
+    <string name="show_less">折叠</string>
+    <string name="description">描述</string>
+    <string name="opened_for">• 请求发起人</string>
+    <string name="interaction_history">交互历史记录 (%s)</string>
+    <string name="failed_to_add_comment_msg">"对不起，您的评论未添加到请求中，请重试。"</string>
+
+
+    <string name="title_activity_details">请求详细信息</string>
+    <string name="title_additional_details">其他详细信息</string>
+    <string name="see_request_details">其他详细信息</string>
+
+    <!--animations-->
+    <string name="request_accepted">解决方案已被接受</string>
+    <string name="request_rejected">解决方案已被拒绝</string>
+    <string name="request_approved">请求已被批准</string>
+    <string name="request_denied">请求已被拒绝</string>
+    <string name="request_solved">请求已被解决</string>
+    <string name="deny_task_dialog_fill_denial_reason">请填写拒绝原因</string>
+    <string name="deny_task_dialog_comment_hint">点击以输入文本</string>
+    <string name="deny_task_dialog_cancel_button_text">取消</string>
+    <string name="deny_task_dialog_done_button_text">完成</string>
+
+    <!--date time-->
+    <string name="date_time_format_days_ago">%s 天之前</string>
+    <string name="date_time_format_single_day_ago">%s 天之前</string>
+    <string name="date_time_format_hours_ago">%s 小时之前</string>
+    <string name="date_time_format_single_hour_ago">%s 小时之前</string>
+    <string name="date_time_format_min_ago">%s 分钟之前</string>
+    <string name="date_time_format_sec_ago">%s 秒之前</string>
+</resources>

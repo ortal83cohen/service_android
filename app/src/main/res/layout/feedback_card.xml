@@ -1,0 +1,260 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#00FFFFFF"
+             android:clipChildren="false"
+             android:clipToPadding="false"
+    >
+
+    <RelativeLayout
+        android:id="@+id/outerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            card_view:cardBackgroundColor="@android:color/white"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/feedback_card"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardCornerRadius="0dp"
+            style="@style/TodoCard"
+            >
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/innerLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                >
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                              android:id="@+id/header"
+                              style="@style/TodoBar.Feedback"
+                              android:clipToPadding="false"
+                    >
+
+                    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                        android:id="@+id/barTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginStart="70dp"
+                        android:fontFamily="Metric"
+                        android:text="@string/provideMoreInformation"
+                        android:textColor="#ffffff"
+                        android:textSize="21dp"
+                        />
+
+                </LinearLayout>
+
+                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/title"
+                    style="@style/cardTitleText"
+                    android:layout_below="@+id/header"
+                    />
+
+                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/entityId"
+                    style="@style/cardEntityPropertyValueText"
+                    android:layout_below="@+id/title"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="6dp"
+                    />
+
+                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/openedForSeparator"
+                    style="@style/cardEntityPropertyNameText"
+                    android:layout_alignBaseline="@id/entityId"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@id/entityId"
+                    android:layout_toRightOf="@id/entityId"
+                    android:text="@string/openedForDotSeparator"
+                    android:textColor="@color/cardSeparator"
+                    />
+
+                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/openedForText"
+                    style="@style/cardEntityPropertyNameText"
+                    android:layout_alignBaseline="@id/entityId"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_toEndOf="@id/openedForSeparator"
+                    android:layout_toRightOf="@id/openedForSeparator"
+                    android:text="@string/openedFor"
+                    />
+
+                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/openedForValue"
+                    style="@style/cardEntityPropertyValueText"
+                    android:layout_alignBaseline="@id/openedForText"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_toEndOf="@id/openedForText"
+                    android:layout_toRightOf="@id/openedForText"
+                    />
+
+                <ImageView
+                    android:id="@+id/commentImage"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_below="@id/entityId"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/abc_btn_switch_to_on_mtrl_00012"
+                    />
+
+                <include
+                    android:id="@+id/commentBubble"
+                    layout="@layout/chat_bubble"
+                    android:layout_width="262dp"
+                    android:layout_height="86dp"
+                    android:layout_alignTop="@+id/commentImage"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_toEndOf="@+id/commentImage"
+                    android:layout_toRightOf="@+id/commentImage"
+                    />
+
+
+                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/status"
+                    style="@style/feedbackRequestSubmittedText"
+                    android:layout_below="@+id/commentImage"
+                    android:layout_marginTop="84dp"
+                    android:text="@string/new_comment"
+                    />
+
+                <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                    android:id="@+id/date"
+                    style="@style/cardEntityPropertyNameText"
+                    android:layout_alignBaseline="@+id/status"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/status"
+                    android:layout_marginTop="6dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_alignTop="@+id/buttonPanel"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:background="?android:attr/dividerVertical"/>
+
+                <FrameLayout
+                    android:id="@+id/buttonPanel"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="15dp"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/barIcon"
+        style="@style/todoBarIcon"
+        android:src="@drawable/icon_info_blue"
+        />
+
+    <View
+        android:id="@+id/card_animation_shadow"
+        style="@style/TodoCard"
+        android:layout_marginTop="0dp"
+        android:background="@color/accept_reject_animation_background"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:id="@+id/positive_todo_card_animation_shape"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/accept_animation_shape"
+        android:visibility="invisible"
+        >
+
+        <ImageView
+            android:id="@+id/positive_animation_icon"
+            android:layout_width="34dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_solved_copy"
+            android:gravity="center"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/todo_card_animation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="205dp"
+        android:text="@string/request_accepted"
+        android:textColor="@color/request_positive_animation_text_invisible_color"
+        android:textSize="23dp"
+        android:visibility="visible"
+        />
+
+    <RelativeLayout
+        android:id="@+id/todo_card_animation_shape"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/reject_animation_shape"
+        android:visibility="invisible"
+        >
+
+        <ImageView
+            android:id="@+id/todo_card_animation_icon_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/deniedx_left"
+            android:gravity="center"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/todo_card_animation_icon_right"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/deniedx_right"
+            android:gravity="center"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/negative_todo_card_animation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="205dp"
+        android:text="@string/request_rejected"
+        android:textColor="@color/card_negative_animation_text_invisible_color"
+        android:textSize="23dp"
+        android:visibility="visible"
+        />
+</FrameLayout>

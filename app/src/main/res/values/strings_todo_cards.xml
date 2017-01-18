@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="deny">Deny</string>
+    <string name="approve">Approve</string>
+    <string name="requestedBy">Requested by:</string>
+    <string name="request">Request</string>
+    <string name="approvalType">Approval type:</string>
+    <string name="approvalTask">Approval task:</string>
+    <string name="pendingApproval">PENDING APPROVAL</string>
+    <string name="pendingYourApproval">Pending your approval</string>
+
+    <string name="provideMoreInformation">Provide more information</string>
+    <string name="openedFor">Opened for</string>
+    <string name="openedForDotSeparator">•</string>
+    <string name="new_comment">NEW COMMENT</string>
+    <string name="submitted">SUBMITTED</string>
+    <string name="closed">CLOSED</string>
+    <string name="comment">Comment</string>
+    <string name="markAsSolved">Mark as solved</string>
+
+    <string name="activeRequest">Active request</string>
+
+    <string name="requestResolved">Request Resolved</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+
+    <string name="solution">Solution:</string>
+    <string name="solution_provided">SOLUTION PROVIDED</string>
+
+
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+    <string name="description">Description</string>
+    <string name="opened_for">• Opened for</string>
+    <string name="interaction_history">Interaction History (%s)</string>
+    <string name="failed_to_add_comment_msg">"Sorry, your comment wasn't added to the request. Try again."</string>
+
+
+    <string name="title_activity_details">REQUEST DETAILS</string>
+    <string name="title_additional_details">ADDITIONAL DETAILS</string>
+    <string name="see_request_details">Additional details</string>
+
+    <!--animations-->
+    <string name="request_accepted">Solution Accepted</string>
+    <string name="request_rejected">Solution Rejected</string>
+    <string name="request_approved">Request Approved</string>
+    <string name="request_denied">Request Denied</string>
+    <string name="request_solved">Request Solved</string>
+    <string name="deny_task_dialog_fill_denial_reason">Please fill denial reason</string>
+    <string name="deny_task_dialog_comment_hint">Tap to enter text</string>
+    <string name="deny_task_dialog_cancel_button_text">CANCEL</string>
+    <string name="deny_task_dialog_done_button_text">DONE</string>
+
+    <!--date time-->
+    <string name="date_time_format_days_ago">%s days ago</string>
+    <string name="date_time_format_single_day_ago">%s day ago</string>
+    <string name="date_time_format_hours_ago">%s hours ago</string>
+    <string name="date_time_format_single_hour_ago">%s hour ago</string>
+    <string name="date_time_format_min_ago">%s min ago</string>
+    <string name="date_time_format_sec_ago">%s sec ago</string>
+
+    <string name="failed_to_add_comment">Your attempt to add a comment was unsuccessful, try again.</string>
+    <string name="failed_to_reject">Your attempt to reject the solution was unsuccessful, try again.</string>
+    <string name="failed_to_approve">Your attempt to approve the request was unsuccessful, try again.</string>
+    <string name="failed_to_deny">Your attempt to deny the request was unsuccessful, try again.</string>
+    <string name="failed_to_accept">Your attempt to accept the solution was unsuccessful, try again</string>
+    <string name="failed_to_mark_resolved">Your attempt to mark request as solved was unsuccessful, try again.</string>
+
+</resources>

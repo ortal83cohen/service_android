@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hesk/github/hkm-progress-button/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="disable_color1">#d8d8d8</color>
+    <color name="disable_color2"> #b8b8b8</color>
+    <color name="blue_normal">@color/background_button_enabled</color>
+    <color name="blue_pressed">@color/button_background_pressed</color>
+    <color name="border">#cbcbcb</color>
+    <color name="green_complete">#ff99cc00</color>
+    <color name="grey_disabled">@color/background_button_disabled</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="purple_progress">#ffaa66cc</color>
+    <color name="red_error">#ffff4444</color>
+    <declare-styleable name="ArrowButton"><attr format="color" name="pb_colorArrow"/><attr format="reference" name="pb_arrowRes"/><attr format="dimension" name="pb_verticalPadding"/><attr format="dimension" name="pb_topLineThickness"/><attr format="dimension" name="pb_bottomLineThickness"/><attr format="dimension" name="pb_IconSize"/><attr format="reference" name="pb_IconRes"/><attr format="dimension" name="pb_IconPadding"/></declare-styleable>
+    <declare-styleable name="FlatButton"><attr format="color" name="pb_colorPressed"/><attr format="color" name="pb_colorNormal"/><attr format="color" name="pb_colorDisabled"/><attr format="color" name="pb_colorBorder"/><attr format="dimension" name="pb_borderWidth"/><attr format="dimension" name="pb_cornerRadius"/><attr format="enum" name="pb_presentation"><enum name="pad_button" value="1"/><enum name="flat_button" value="2"/></attr></declare-styleable>
+    <declare-styleable name="ProcessButton"><attr format="string" name="pb_textProgress"/><attr format="string" name="pb_textComplete"/><attr format="string" name="pb_textError"/><attr format="color" name="pb_colorProgress"/><attr format="color" name="pb_colorComplete"/><attr format="color" name="pb_colorError"/></declare-styleable>
+    <!-- From: file:/Users/hesk/github/hkm-progress-button/library/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="border_width">0.5dp</dimen>
+    <dimen name="corner_radius">2dp</dimen>
+    <dimen name="icon_size_def">40dp</dimen>
+    <dimen name="icon_size_text_padding_xl">5dp</dimen>
+    <dimen name="layer_padding">3dp</dimen>
+    <!-- From: file:/Users/hesk/github/hkm-progress-button/library/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="hpb_layer_bitmap" type="id"/>
+    <!-- From: file:/Users/hesk/github/hkm-progress-button/library/src/main/res/values/library_processbutton_strings.xml -->
+    <eat-comment/>
+    <string name="define_processbutton">processbutton</string>
+    <string name="library_processbutton_author">Heskemo K</string>
+    <string name="library_processbutton_authorWebsite">https://hkmdev.wordpress.com/</string>
+    <string name="library_processbutton_isOpenSource">true</string>
+    <string name="library_processbutton_libraryDescription">Android Buttons With Built-in Progress Meters.</string>
+    <string name="library_processbutton_libraryName">Process Button</string>
+    <string name="library_processbutton_libraryVersion">1.1.6</string>
+    <string name="library_processbutton_libraryWebsite">https://github.com/jjhesk/hkm-progress-button</string>
+    <string name="library_processbutton_licenseId">mit</string>
+    <string name="library_processbutton_repositoryLink">https://github.com/jjhesk/hkm-progress-button</string>
+</resources>

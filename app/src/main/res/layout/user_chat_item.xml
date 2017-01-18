@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="262dp"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/commentImage"
+    android:layout_marginBottom="23dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginStart="9dp"
+    android:layout_toEndOf="@+id/commentImage"
+    android:layout_toRightOf="@+id/commentImage"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/comment_blue_top" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:sbmobile="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/comment_blue_bottom"
+        android:orientation="vertical">
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColor="#272727"
+            android:textColorLink="@color/theme_accent"
+            android:textSize="16sp"
+            sbmobile:metricFontStyle="Regular" />
+
+    </LinearLayout>
+</LinearLayout>

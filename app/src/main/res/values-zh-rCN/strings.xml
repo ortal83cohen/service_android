@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Do not use this file! You should add a new file under res/values with the name strings_<your activity / fragment name>.xml -->
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_logout">注销</string>
+    <string name="get_request">单击以从网关获取请求</string>
+    <string name="title_activity_rest_example">其他示例活动</string>
+    <string name="navigate_to_rest_activity_example">切换到其他示例活动</string>
+    <string name="category_page_related_entity_image_content">类别页面相关实体图像</string>
+    <string name="category_page_related_entity_popular_image_content">类别页面相关实体常见图像</string>
+    <string name="back_icon_content">后退</string>
+    <string name="filter_icon_content">筛选</string>
+    <string name="search_icon_content">搜索</string>
+    <string name="refresh_cards_example">刷新卡</string>
+    <string name="search">搜索</string>
+    <string name="validation">验证</string>
+    <string name="service_badge_text">服务</string>
+    <string name="support_badge_text">支持</string>
+    <string name="article_badge_text">文章</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="general_error">抱歉! 发生了严重错误</string>
+
+    <!-- Browse categories-->
+    <string name="categories_pane_title">浏览类别</string>
+
+    <string name="new_updates_available">有新更新可用</string>
+
+    <string name="welcome_text">欢迎</string>
+    <string name="submitting">正在提交</string>
+    <string name="no_internet_connection">没有连接，请重试</string>
+    <string name="upgrade_required_good_news">好消息!</string>
+    <string name="upgrade_required_new_version_available">新版本已经推出</string>
+    <string name="upgrade_required_update_app">更新应用</string>
+    <string name="unable_to_log_out">无法注销</string>
+
+
+</resources>

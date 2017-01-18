@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name_notification_title">Service Anywhere Portal</string>
+    <string name="request_resolved_notification_title">Demande résolue</string>
+    <string name="pending_approval_notification_title">En attente d’approbation</string>
+    <string name="provide_more_information_notification_title">Fournissez plus d’informations</string>
+    <string name="request_resolved_reject_action_text">Rejeter</string>
+    <string name="request_resolved_accept_action_text">Accepter</string>
+    <string name="pending_approval_deny_action_text">Refuser</string>
+    <string name="pending_approval_approve_action_text">Approuver</string>
+    <string name="provide_more_information_comment_action_text">Commenter</string>
+    <string name="provide_more_information_mark_as_solved_action_text">Marquer comme résolue</string>
+    <string name="multiple_requests_solved_notification_title">%1$d demandes résolues</string>
+    <string name="multiple_pending_approvals_notification_title">%1$d en attente d’approbation</string>
+    <string name="multiple_requests_awaiting_feedback_notification_title">%1$d demandes en attente de commentaires</string>
+</resources>

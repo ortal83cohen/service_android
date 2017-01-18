@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="describe_new_request">Wie können wir helfen?</string>
+    <string name="description_hint">Text eingeben</string>
+    <string name="next_button">WEITER</string>
+    <string name="speech_prompt">Was gibt es für ein Problem?</string>
+    <string name="yes_or_no">Ja oder Nein?</string>
+    <string name="did_you_mean">"Meinten Sie %1$s? Antworten Sie mit Ja oder Nein"</string>
+    <string name="speech_not_supported">Die Spracheingabe wird derzeit von Ihrem Gerät nicht unterstützt\"</string>
+    <string name="microphone_button">Mikrofonschaltfläche</string>
+    <string name="title_activity_new_request">NEUE ANFORDERUNG</string>
+    <string name="select_offering">Ist die Auswahl hilfreich? Option antippen</string>
+    <string name="almost_there">FAST FERTIG!</string>
+    <string name="all_done">Sie können Ihre Anforderungsdetails oben überprüfen</string>
+    <string name="or">oder</string>
+    <string name="submit_request">ANFORDERUNG ABSENDEN</string>
+    <string name="request_submitted_text">IHRE ANFORDERUNG WURDE ABGESENDET</string>
+    <string name="created_request_id">Anforderung Nr.
+        <xliff:g id="requestId" example="64726655">%1$s</xliff:g>
+    </string>
+    <string name="tracking_page_button">ANFORDERUNG ANZEIGEN</string>
+    <string name="home_button">FERTIG</string>
+    <string name="new_request_header_text">NEUE ANFORDERUNG</string>
+    <string name="new_request_unsaved_changes_warning">Ihre Anforderung wird nicht gespeichert.</string>
+    <string name="new_request_categories_title">Welche Kategorie passt am besten auf Ihre Anforderung?</string>
+    <string name="new_request_category_offerings_header">Kategorie: %1$s</string>
+    <string name="not_found_offering_search_result">Weitere Optionen anzeigen</string>
+    <string name="not_found_offering_categories">Gewünschte Information weiterhin nicht gefunden?</string>
+    <string name="new_request_general_request_header">Allgemeine Anforderung</string>
+
+</resources>

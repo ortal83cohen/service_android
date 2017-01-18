@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_primary">#FFf37a43</color>
+    <color name="theme_primary_dark">#FFCD6B3B</color>
+    <color name="theme_primary_light">#ffb4ac</color>
+
+    <color name="theme_accent">#066f9c</color>
+    <color name="theme_accent_dark">#065f9c</color>
+
+    <color name="main_activity_background">#dddddd</color>
+    <color name="background_color">#01a982</color>
+
+    <color name="colorPrimary">#444444</color>
+    <color name="colorPrimaryDark">#1a1a1a</color>
+    <color name="colorPrimaryDarkTransparent">#001a1a1a</color>
+    <color name="colorAccent">#8b8b8b</color>
+
+    <item name="dotsSelectedDefault" type="color">#606062</item>
+    <item name="dotsUnselectedDefault" type="color">#B6B6B7</item>
+    <item name="approvalCard" type="color">#ff7b57</item>
+    <item name="approvalCardSecondary" type="color">#db6a4b</item>
+    <item name="feedbackCard" type="color">#3baeda</item>
+    <item name="feedbackCardSecondary" type="color">#3396bd</item>
+    <item name="card_negative_animation__text_visible_color" type="color">#ff454f</item>
+    <item name="card_negative_animation_text_invisible_color" type="color">#00ff454f</item>
+    <item name="request_resolved_card_accept_text_visible_color" type="color">#01a982</item>
+    <item name="request_positive_animation_text_invisible_color" type="color">#0001a982</item>
+    <color name="accept_reject_animation_background">#ebffffff</color>
+    <item name="resolvedCardSecondary" type="color">#019170</item>
+    <item name="activeRequestCard" type="color">#444444</item>
+    <item name="activeRequestCard_closed" type="color">#545454</item>
+    <item name="activeRequestCardSecondary" type="color">#262626</item>
+    <item name="activeRequestCardSecondary_closed" type="color">#717171</item>
+    <!--<item name="cardDarkText" type="color">#1a1a1a</item>-->
+    <!--<item name="cardLightText" type="color">#8b8b8b</item>-->
+    <!--<item name="cardButtonText" type="color">#066f9c</item>-->
+
+    <color name="grey_text">#cccccc</color>
+
+    <color name="cardSeparator">#808080</color>
+    <color name="separator">#cccccc</color>
+    <!--<color name="black_text">#1a1a1a</color>-->
+
+    <!--activity_category_page.xml-->
+    <color name="offering_support_type_color">#b057b1</color>
+    <color name="offering_service_type_color">#15aa87</color>
+    <color name="category_page_header_background_color">#01a982</color>
+    <color name="category_page_header_title_color">#ffffff</color>
+    <color name="category_page_header_border_color">#000000</color>
+
+    <!--layout/category_page_related_entities_list_row.xml-->
+    <!--<color name="category_page_related_entity_item_title_text_color">#000000</color>-->
+    <!--<color name="category_page_related_entity_item_description_text_color">#808080</color>-->
+    <!--<color name="category_page_related_entity_item_cost_text_color">#808080</color>-->
+    <color name="category_page_related_entity_item_border">#1e5e5e5e</color>
+
+    <!--search results panel-->
+    <color name="related_entities_article_badge_color">#069</color>
+    <color name="related_entities_news_badge_color">#FC6D04</color>
+
+    <!--browse categories pane -->
+    <color name="browse_categories_collapsed_title_text_color">#1a1a1a</color>
+    <color name="browse_categories_expanded_title_text_color">@android:color/white</color>
+    <color name="browse_categories_collapsed_header_background_color">@android:color/white</color>
+    <color name="browse_categories_expanded_header_background_color">#333333</color>
+
+    <!--New request colors-->
+     <color name="new_request_view_items_background">#ffffff</color>
+    <color name="multi_edit_text_border_color">#a1a1a1</color>
+    <color name="new_request_theme_color">#01a982</color>
+    <color name="text_button_disabled">#d8d8d8</color>
+    <color name="button_text_pressed">#ffffff</color>
+    <color name="text_button_enabled">#ffffff</color>
+    <color name="background_button_enabled">#359cc4</color>
+    <color name="background_button_disabled">#e8e8e8</color>
+    <color name="button_background_pressed">#2b7e9e</color>
+    <color name="new_request_background">#dddddd</color>
+    <color name="new_request_not_found_offering">@color/theme_accent</color>
+    <color name="default_badge_icon_color">#ffffff</color>
+    <color name="new_request_submit_button_text">#ffffff</color>
+    <color name="new_request_offering_header_background">#018f6e</color>
+    <color name="new_request_tracking_button_disabled">#88ffffff</color>
+    <color name="new_request_home_button_disabled">#b3dfd5</color>
+    <color name="new_request_home_button_enabled">#ffffff</color>
+    <color name="offering_description_separator">#7f7f7f</color>
+
+    <color name="hint_text_color">#c6c6c6</color>
+
+    <color name="search_header_dark">#333333</color>
+
+    <item name="pre_login_background" type="color">#dddddd</item>
+    <item name="pre_login_welcome_background" type="color">#333333</item>
+    <item name="pre_login_line_separator" type="color">#B7B7B7</item>
+    <item name="loadUrlButton_background" type="color">#FFFFFF</item>
+    <item name="loadUrlButton_border" type="color">#CCCCCC</item>
+    <item name="loadUrlButton_pressed_border" type="color">#333333</item>
+
+    <item name="scanQRButton_background" type="color">#00A982</item>
+    <item name="scanQRButton_pressed_background" type="color">#018768</item>
+    <item name="url_border_color" type="color">#000000</item>
+    <item name="manual_url_background" type="color">#FFFFFF</item>
+
+    <!--ARTICLE-->
+    <color name="article_page_background">#dddddd</color>
+    <color name="article_web_view_inner_background_color">#ffffff</color>
+    <color name="article_page_header_background_color">#01a982</color>
+
+    <!-- Errors -->
+    <color name="error_page_background_color">#dddddd</color>
+    <color name="error_message_header_color">#111111</color>
+    <color name="error_message_text_color">#000000</color>
+    <color name="error_message_action_text_color">#ffffff</color>
+    <color name="error_message_action_background_color">#01a982</color>
+
+</resources>

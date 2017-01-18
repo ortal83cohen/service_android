@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="describe_new_request">¿Cómo podemos ayudarle?</string>
+    <string name="description_hint">Introduzca texto</string>
+    <string name="next_button">SIGUIENTE</string>
+    <string name="speech_prompt">Indíquenos cuál es su problema.</string>
+    <string name="yes_or_no">¿Sí o no?</string>
+    <string name="did_you_mean">"¿quería decir %1$s?, conteste sí o no"</string>
+    <string name="speech_not_supported">El dispositivo no admite en este momento la entrada de voz\"</string>
+    <string name="microphone_button">Botón del micrófono</string>
+    <string name="title_activity_new_request">NUEVA PETICIÓN</string>
+    <string name="select_offering">¿Le ayudan estas opciones? Puntee una opción</string>
+    <string name="almost_there">¡YA CASI ESTÁ!</string>
+    <string name="all_done">Puede subir para revisar los detalles de su petición</string>
+    <string name="or">O</string>
+    <string name="submit_request">ENVIAR PETICIÓN</string>
+    <string name="request_submitted_text">SU PETICIÓN SE HA ENVIADO</string>
+    <string name="created_request_id">Petición nº
+        <xliff:g id="requestId" example="64726655">%1$s</xliff:g>
+    </string>
+    <string name="tracking_page_button">VER PETICIÓN</string>
+    <string name="home_button">LISTA</string>
+    <string name="new_request_header_text">NUEVA PETICIÓN</string>
+    <string name="new_request_unsaved_changes_warning">Su petición se perderá</string>
+    <string name="new_request_categories_title">¿Qué categoría se ajusta mejor a su petición?</string>
+    <string name="new_request_category_offerings_header">Categoría: %1$s</string>
+    <string name="not_found_offering_search_result">Mostrarme otras opciones</string>
+    <string name="not_found_offering_categories">¿Sigue sin poder encontrar lo que está buscando?</string>
+    <string name="new_request_general_request_header">Petición general</string>
+
+</resources>

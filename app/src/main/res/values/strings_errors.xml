@@ -1,0 +1,18 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <!-- Authentication error -->
+    <string name="auth_error_header">Log in again</string>
+    <string name="auth_error">You seem to have been logged out. Don’t worry just log in again.</string>
+    <string name="auth_error_login">Login</string>
+
+    <!-- Unexpected error -->
+    <string name="unexpected_error_header">We Lost Altitude</string>
+    <string name="unexpected_error">The app encountered a problem.\n\nYou can ignore and try to continue working or restart the app.\n\nIf the problem persists, contact your administrator.</string>
+    <string name="unexpected_error_restart">Restart app</string>
+    <string name="unexpected_error_dismiss">Dismiss</string>
+
+    <!-- Timeout or no connection -->
+    <string name="no_internet_connection">Connection issues</string>
+    <string name="no_internet_connection_no_refresh">Connection issues.\nApp may not work properly</string>
+    <string name="no_internet_connection_dismiss">Dismiss</string>
+
+</resources>

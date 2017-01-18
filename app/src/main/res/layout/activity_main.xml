@@ -1,0 +1,142 @@
+<com.hpe.sb.mobile.app.common.uiComponents.commonLayout.SwipeToRefreshNonHorizontal xmlns:android="http://schemas.android.com/apk/res/android"
+                                                                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                                                    xmlns:sbmobile="http://schemas.android.com/apk/res-auto"
+                                                                                    xmlns:tools="http://schemas.android.com/tools"
+                                                                                    android:id="@+id/pullToRefresh"
+    android:layout_height="wrap_content"  android:layout_width="match_parent">
+
+  <FrameLayout
+  android:layout_height="wrap_content"  android:layout_width="match_parent">
+
+<FrameLayout
+    android:id="@+id/contener"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/snackbarCoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_activity_background"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context=".features.home.MainActivity">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="com.hpe.sb.mobile.app.features.home.MainActivityBehavior">
+
+            <com.hpe.sb.mobile.app.common.uiComponents.commonLayout.ScrollNonHorizontal
+                android:id="@+id/scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="44dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/backgroundImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:fitsSystemWindows="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/background_image_default" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/gradient1"
+                        android:orientation="vertical">
+
+                        <View
+                            android:id="@+id/transparentHeader"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:background="@android:color/transparent" />
+
+                        <View
+                            android:id="@+id/gradientView"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/gradient2" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                            android:id="@+id/greeting"
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|top"
+                            android:layout_marginTop="@dimen/greeting_margin_top"
+                            android:gravity="center_horizontal"
+                            android:paddingTop="@dimen/status_bar_height"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp" />
+
+                        <com.hpe.sb.mobile.app.common.uiComponents.todocards.TodoCardsView
+                            android:id="@+id/todo_card"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            sbmobile:maxDots="7" />
+
+                        <com.hpe.sb.mobile.app.common.uiComponents.smartFeed.SmartFeedView
+                            android:id="@+id/smart_feed"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/todo_card" />
+                    </LinearLayout>
+                </FrameLayout>
+            </com.hpe.sb.mobile.app.common.uiComponents.commonLayout.ScrollNonHorizontal>
+            <!-- Browse Categories -->
+            <FrameLayout
+                android:id="@+id/status_bar_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/status_bar_height"
+                android:background="@color/colorPrimaryDarkTransparent" />
+
+            <include
+                android:id="@+id/app_bar"
+                layout="@layout/search_app_bar" />
+
+            <include
+                android:id="@+id/categories_slide_pane"
+                layout="@layout/categories_pane" />
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="110dp"
+                android:paddingTop="40dp"
+                android:gravity="center"
+                android:layout_marginRight="18dp"
+                app:layout_anchor="@id/categories_slide_pane"
+                app:layout_anchorGravity="top|right|end">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/new_request"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:clickable="true"
+                android:elevation="12dp"
+                android:scaleType="center"
+                android:src="@drawable/icon_plus"
+                app:backgroundTint="#01a982"
+      />
+</LinearLayout>
+        </android.support.design.widget.CoordinatorLayout><!--<Button--><!--style="?android:attr/buttonStyleSmall"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="New Request"--><!--android:id="@+id/newRequestButton"/>-->
+    </android.support.design.widget.CoordinatorLayout><!--<Button--><!--style="?android:attr/buttonStyleSmall"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="New Request"--><!--android:id="@+id/newRequestButton"/>-->
+</FrameLayout>
+</com.hpe.sb.mobile.app.common.uiComponents.commonLayout.SwipeToRefreshNonHorizontal>

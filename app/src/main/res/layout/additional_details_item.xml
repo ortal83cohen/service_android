@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:sbmobile="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="33dp"
+              android:layout_marginRight="33dp"
+              android:orientation="vertical"
+              android:paddingBottom="16dp"
+              android:paddingLeft="24dp"
+              android:paddingRight="24dp"
+    >
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@android:id/text1"
+        style="@style/TextStyle.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        sbmobile:metricFontStyle="Light"/>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@android:id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4px"
+        android:textColor="@android:color/black"
+        android:textSize="21sp"/>
+
+</LinearLayout>

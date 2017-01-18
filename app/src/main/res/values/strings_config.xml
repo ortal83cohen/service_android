@@ -1,0 +1,5 @@
+<resources>
+    <bool name="is_release_mode" translatable="false">true</bool>
+    <string name="app_name" translatable="false">Portal</string>
+    <string name="app_name_long" translatable="false">Service Anywhere Portal</string>
+</resources>

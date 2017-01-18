@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="describe_new_request">お困りですか?</string>
+    <string name="description_hint">テキストの入力</string>
+    <string name="next_button">次へ</string>
+    <string name="speech_prompt">問題は何ですか?</string>
+    <string name="yes_or_no">「はい」か「いいえ」でお答えください。</string>
+    <string name="did_you_mean">"%1$s でよろしいですか。「はい」か「いいえ」でお答えください"</string>
+    <string name="speech_not_supported">音声入力はお使いのデバイスで現在サポートされていません\"</string>
+    <string name="microphone_button">マイクロフォンボタン</string>
+    <string name="title_activity_new_request">新規依頼</string>
+    <string name="select_offering">これらのヘルプを実行しますか? オプションをタップしてください</string>
+    <string name="almost_there">準備完了</string>
+    <string name="all_done">上に移動して依頼の詳細を確認できます</string>
+    <string name="or">または</string>
+    <string name="submit_request">依頼の送信</string>
+    <string name="request_submitted_text">依頼が送信されました</string>
+    <string name="created_request_id">依頼番号
+        <xliff:g id="requestId" example="64726655">%1$s</xliff:g>
+    </string>
+    <string name="tracking_page_button">依頼の表示</string>
+    <string name="home_button">完了</string>
+    <string name="new_request_header_text">新規依頼</string>
+    <string name="new_request_unsaved_changes_warning">依頼は失われます</string>
+    <string name="new_request_categories_title">依頼に最適なカテゴリはどれですか?</string>
+    <string name="new_request_category_offerings_header">カテゴリ: %1$s</string>
+    <string name="not_found_offering_search_result">別のオプションの表示</string>
+    <string name="not_found_offering_categories">お探しの内容がまだ見つかりませんか?</string>
+    <string name="new_request_general_request_header">一般依頼</string>
+
+</resources>

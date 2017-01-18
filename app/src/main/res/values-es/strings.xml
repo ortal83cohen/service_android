@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Do not use this file! You should add a new file under res/values with the name strings_<your activity / fragment name>.xml -->
+
+
+
+    <string name="hello_world">¡Hola mundo!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="get_request">Pulse para obtener la petición de la puerta de enlace</string>
+    <string name="title_activity_rest_example">Actividad de ejemplo de REST</string>
+    <string name="navigate_to_rest_activity_example">Cambiar a la actividad de ejemplo de REST</string>
+    <string name="category_page_related_entity_image_content">imagen de entidad relacionada con la página de categoría</string>
+    <string name="category_page_related_entity_popular_image_content">category page related entity popular image</string>
+    <string name="back_icon_content">atrás</string>
+    <string name="filter_icon_content">filtrar</string>
+    <string name="search_icon_content">buscar</string>
+    <string name="refresh_cards_example">Actualizar tarjetas</string>
+    <string name="search">Buscar</string>
+    <string name="validation">VALIDACIÓN</string>
+    <string name="service_badge_text">SERVICIO</string>
+    <string name="support_badge_text">SOPORTE</string>
+    <string name="article_badge_text">ARTÍCULO</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="general_error">¡Vaya! Algo salió terriblemente mal.</string>
+
+    <!-- Browse categories-->
+    <string name="categories_pane_title">Examinar categorías</string>
+
+    <string name="new_updates_available">Nuevas actualizaciones disponibles</string>
+
+    <string name="welcome_text">bienvenido</string>
+    <string name="submitting">Enviando</string>
+    <string name="no_internet_connection">Sin conexión, vuelva a intentarlo</string>
+    <string name="upgrade_required_good_news">¡Buenas noticias!</string>
+    <string name="upgrade_required_new_version_available">Una nueva versión está disponible</string>
+    <string name="upgrade_required_update_app">actualizar aplicación</string>
+    <string name="unable_to_log_out">No se puede cerrar sesión</string>
+
+
+</resources>

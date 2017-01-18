@@ -1,0 +1,4 @@
+<resources>
+    <string name="no_search_results_first_line">Your search</string>
+    <string name="no_search_results_second_line">produced no results</string>
+</resources>

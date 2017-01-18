@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Do not use this file! You should add a new file under res/values with the name strings_<your activity / fragment name>.xml -->
+
+
+
+    <string name="hello_world">Ciao!</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_logout">Esci</string>
+    <string name="get_request">Fai clic per ricevere la richiesta dal gateway</string>
+    <string name="title_activity_rest_example">Attività di esempio Rest</string>
+    <string name="navigate_to_rest_activity_example">Passa ad attività di esempio Rest</string>
+    <string name="category_page_related_entity_image_content">immagine related_entity pagina di categoria</string>
+    <string name="category_page_related_entity_popular_image_content">Immagine popolare entità relativa a pagina di categoria</string>
+    <string name="back_icon_content">indietro</string>
+    <string name="filter_icon_content">filtro</string>
+    <string name="search_icon_content">cerca</string>
+    <string name="refresh_cards_example">Aggiorna schede</string>
+    <string name="search">Cerca</string>
+    <string name="validation">CONVALIDA</string>
+    <string name="service_badge_text">SERVIZIO</string>
+    <string name="support_badge_text">ASSISTENZA</string>
+    <string name="article_badge_text">ARTICOLO</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="general_error">Errore grave</string>
+
+    <!-- Browse categories-->
+    <string name="categories_pane_title">Sfoglia categorie</string>
+
+    <string name="new_updates_available">Nuovi aggiornamenti disponibili</string>
+
+    <string name="welcome_text">benvenuto</string>
+    <string name="submitting">Invio</string>
+    <string name="no_internet_connection">Nessuna connessione. Riprova.</string>
+    <string name="upgrade_required_good_news">Buone notizie!</string>
+    <string name="upgrade_required_new_version_available">È disponibile una nuova versione</string>
+    <string name="upgrade_required_update_app">Aggiorna app</string>
+    <string name="unable_to_log_out">Impossibile uscire</string>
+
+
+</resources>

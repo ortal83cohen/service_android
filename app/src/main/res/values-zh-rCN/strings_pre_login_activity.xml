@@ -1,0 +1,15 @@
+<resources>
+    <string name="load_url">激活</string>
+    <string name="type_url_done">完成</string>
+    <string name="title_activity_pre_login">PreLoginActivity</string>
+    <string name="welcome_pre_login">欢迎使用 Service Anywhere</string>
+    <string name="scan_QR_message_pre_login">若要激活应用程序，请从门户扫描激活二维码</string>
+    <string name="scan_QR_button_pre_login">扫描二维码</string>
+    <string name="dont_have_QR_pre_login">没有激活二维码?</string>
+    <string name="get_QR_info_pre_login">打开门户并从菜单中选择“激活移动应用程序”，然后按照二维码说明执行操作</string>
+    <string name="use_manual_URL_pre_login">或使用手动激活 URL</string>
+    <string name="type_URL_pre_login">键入激活 URL</string>
+    <string name="scan_qr_code_prompt">将条形码置于矩形框中以对其进行扫描。</string>
+    <string name="tenant_unsupported_on_mobile_msg_txt">目前没有为您的 HPE Service Anywhere 门户启用移动应用，请联系 IT 获取详细信息。</string>
+    <string name="tenant_unsupported_on_mobile_button_txt">完成</string>
+</resources>

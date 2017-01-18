@@ -1,0 +1,4 @@
+<resources>
+    <string name="no_search_results_first_line">検索に一致する結果は</string>
+    <string name="no_search_results_second_line">ありませんでした</string>
+</resources>

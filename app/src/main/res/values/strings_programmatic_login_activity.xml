@@ -1,0 +1,8 @@
+<resources>
+    <string name="title_activity_programmatic_login">ProgrammaticLoginActivity</string>
+    <string name="username_field_text">Username:</string>
+    <string name="password_field_text">Password:</string>
+    <string name="submitCredentialsButtonText">Submit</string>
+    <string name="missing_mandatory_values_error">Error: mandatory extra values are missing!</string>
+    <string name="username_or_password_empty_err">Error: username or password are empty!</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="load_url">Aktivieren</string>
+    <string name="type_url_done">Fertig</string>
+    <string name="title_activity_pre_login">PreLoginActivity</string>
+    <string name="welcome_pre_login">Willkommen bei Service Anywhere</string>
+    <string name="scan_QR_message_pre_login">Scannen Sie zum Aktivieren der App den Aktivierungs-QR-Code im Portal</string>
+    <string name="scan_QR_button_pre_login">QR-Code scannen</string>
+    <string name="dont_have_QR_pre_login">Kein Aktivierungs-QR-Code vorhanden?</string>
+    <string name="get_QR_info_pre_login">Wählen Sie im Portal "Mobile App aktivieren" im Menü aus und folgen Sie den QR-Anweisungen</string>
+    <string name="use_manual_URL_pre_login">Oder verwenden Sie den manuellen Aktivierungs-URL</string>
+    <string name="type_URL_pre_login">Aktivierungs-URL eingeben</string>
+    <string name="scan_qr_code_prompt">Zum Scannen muss sich der Barcode innerhalb des Rechtecks befinden.</string>
+    <string name="tenant_unsupported_on_mobile_msg_txt">Die mobile App ist zurzeit für Ihr HPE Service Anywhere-Portal nicht aktiviert. Weitere Informationen erhalten Sie vom IT-Personal.</string>
+    <string name="tenant_unsupported_on_mobile_button_txt">Fertig</string>
+</resources>

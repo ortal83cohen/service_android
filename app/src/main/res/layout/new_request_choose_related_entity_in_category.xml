@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/new_request_choose_related_entity_in_category"
+    android:background="@color/new_request_background">
+
+    <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nested_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/new_request_item_view_box">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            tools:showIn="@layout/activity_new_request">
+
+            <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_offering"
+                android:textSize="18sp"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                app:metricFontStyle="Regular"/>
+
+            <com.hpe.sb.mobile.app.common.uiComponents.gifView.CustomGifView
+                android:id="@+id/loading_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/related_entities"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

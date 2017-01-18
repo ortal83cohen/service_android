@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="deny">Ablehnen</string>
+    <string name="approve">Genehmigen</string>
+    <string name="requestedBy">Angefordert von:</string>
+    <string name="request">Anforderung</string>
+    <string name="approvalType">Genehmigungstyp:</string>
+    <string name="approvalTask">Genehmigungsaufgabe:</string>
+    <string name="pendingApproval">GENEHMIGUNG ANSTEHEND</string>
+    <string name="pendingYourApproval">Ihre Genehmigung anstehend</string>
+
+    <string name="provideMoreInformation">Weitere Informationen angeben</string>
+    <string name="openedFor">Geöffnet für</string>
+    <string name="openedForDotSeparator">•</string>
+    <string name="new_comment">NEUER KOMMENTAR</string>
+    <string name="submitted">ABGESENDET</string>
+    <string name="comment">Kommentar</string>
+    <string name="markAsSolved">Als gelöst markieren</string>
+
+    <string name="activeRequest">Ihre Anforderungen</string>
+
+    <string name="requestResolved">Anforderung gelöst</string>
+    <string name="accept">Annehmen</string>
+    <string name="reject">Ablehnen</string>
+
+    <string name="solution">Lösung:</string>
+    <string name="solution_provided">LÖSUNG ANGEBOTEN</string>
+
+
+    <string name="show_more">Mehr anzeigen</string>
+    <string name="show_less">Weniger anzeigen</string>
+    <string name="description">Beschreibung</string>
+    <string name="opened_for">• Geöffnet für</string>
+    <string name="interaction_history">Interaktionsverlauf (%s)</string>
+    <string name="failed_to_add_comment_msg">"Ihr Kommentar konnte der Anforderung leider nicht hinzugefügt werden. Bitte versuchen Sie es erneut."</string>
+
+
+    <string name="title_activity_details">ANFORDERUNGSDETAILS</string>
+    <string name="title_additional_details">WEITERE DETAILS</string>
+    <string name="see_request_details">Weitere Details</string>
+
+    <!--animations-->
+    <string name="request_accepted">Lösung angenommen</string>
+    <string name="request_rejected">Lösung abgelehnt</string>
+    <string name="request_approved">Anforderung genehmigt</string>
+    <string name="request_denied">Anforderung abgelehnt</string>
+    <string name="request_solved">Anforderung gelöst</string>
+    <string name="deny_task_dialog_fill_denial_reason">Geben Sie den Ablehnungsgrund ein</string>
+    <string name="deny_task_dialog_comment_hint">Zur Texteingabe tippen</string>
+    <string name="deny_task_dialog_cancel_button_text">ABBRECHEN</string>
+    <string name="deny_task_dialog_done_button_text">FERTIG</string>
+
+    <!--date time-->
+    <string name="date_time_format_days_ago">vor %s Tagen</string>
+    <string name="date_time_format_single_day_ago">vor %s Tag</string>
+    <string name="date_time_format_hours_ago">vor %s Stunden</string>
+    <string name="date_time_format_single_hour_ago">vor %s Stunde</string>
+    <string name="date_time_format_min_ago">vor %s Minuten</string>
+    <string name="date_time_format_sec_ago">vor %s Sekunden</string>
+</resources>

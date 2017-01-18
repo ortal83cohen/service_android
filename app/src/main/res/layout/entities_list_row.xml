@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:sbmobile="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/selected_related_entity"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="17dp"
+                android:id="@+id/entity_list_row">
+
+    <com.hpe.sb.mobile.app.common.uiComponents.entityIcon.EntityIconImageView
+        android:id="@+id/entity_icon"
+        android:layout_width="@dimen/related_entity_list_item_image_size"
+        android:layout_height="@dimen/related_entity_list_item_image_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:contentDescription="@string/category_page_related_entity_image_content"/>
+
+    <ImageView
+            android:id="@+id/selected_image"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/selectionv"
+            android:visibility="gone"/>
+
+    <!--android:text="i dsg Lo gfdve the way lie df fdg fdsg dg df ggfds"-->
+    <!-- offering Title-->
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/entity_title"
+        style="@style/TextStyle.Title.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/entity_icon"
+        android:layout_toLeftOf="@+id/popular_icon"
+        android:layout_toRightOf="@+id/entity_icon"
+        android:layout_toStartOf="@+id/entity_icon"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingBottom="2dp"
+        android:typeface="sans"
+        sbmobile:cleanHtmlTags="true"/>
+
+    <!--android:src="@drawable/popular"-->
+    <!--popular_image-->
+    <ImageView
+        android:id="@+id/popular_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:contentDescription="@string/category_page_related_entity_popular_image_content"
+        android:src="@drawable/popular"/>
+
+    <!--android:text="SUPPORT"-->
+    <!--type-->
+    <com.hpe.sb.mobile.app.common.uiComponents.entityBadge.EntityBadgeView
+        android:id="@+id/badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entity_title"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/entity_icon"
+        android:layout_toRightOf="@+id/entity_icon"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:maxLength="30"
+        android:paddingBottom="@dimen/related_entity_list_item_type_padding_top_bottom"
+        android:paddingLeft="@dimen/related_entity_list_item_type_padding_right_left"
+        android:paddingRight="@dimen/related_entity_list_item_type_padding_right_left"
+        android:paddingTop="@dimen/related_entity_list_item_type_padding_top_bottom"
+        style="@style/TextStyle.Categories"/>
+
+    <!--android:text="1,976$"-->
+    <!-- cost -->
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/cost"
+        style="@style/TextStyle.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entity_title"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/badge"
+        android:layout_toRightOf="@+id/badge"
+        android:ellipsize="end"
+        android:gravity="fill"
+        android:maxLines="1"
+        android:typeface="sans"
+        sbmobile:cleanHtmlTags="true"/>
+
+    <!-- offering description -->
+    <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+        android:id="@+id/description"
+        style="TextStyle.Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/badge"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/entity_icon"
+        android:layout_toRightOf="@+id/entity_icon"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingBottom="2dp"
+        android:typeface="sans"
+        sbmobile:cleanHtmlTags="true"
+        />
+</RelativeLayout>

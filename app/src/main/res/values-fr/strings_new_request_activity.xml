@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="describe_new_request">Comment pouvons-nous vous aider ?</string>
+    <string name="description_hint">Saisissez votre texte</string>
+    <string name="next_button">SUIVANT</string>
+    <string name="speech_prompt">Indiquez quel est votre problème</string>
+    <string name="yes_or_no">Oui ou non ?</string>
+    <string name="did_you_mean">"voulez-vous dire %1$s, répondez par oui ou non"</string>
+    <string name="speech_not_supported">L’entrée vocale n’est actuellement pas prise en charge sur votre appareil\"</string>
+    <string name="microphone_button">Bouton Microphone</string>
+    <string name="title_activity_new_request">NOUVELLE DEMANDE</string>
+    <string name="select_offering">Cela vous a-t-il été utile ? Appuyez sur une option</string>
+    <string name="almost_there">PRESQUE TERMINÉ !</string>
+    <string name="all_done">Vous pouvez remonter pour passer en revue les détails de votre demande</string>
+    <string name="or">OU</string>
+    <string name="submit_request">ENVOYER LA DEMANDE</string>
+    <string name="request_submitted_text">VOTRE DEMANDE A ÉTÉ ENVOYEÉ</string>
+    <string name="created_request_id">Demande n°
+        <xliff:g id="requestId" example="64726655">%1$s</xliff:g>
+    </string>
+    <string name="tracking_page_button">VOIR LA DEMANDE</string>
+    <string name="home_button">TERMINÉ</string>
+    <string name="new_request_header_text">NOUVELLE DEMANDE</string>
+    <string name="new_request_unsaved_changes_warning">Votre demande sera perdue</string>
+    <string name="new_request_categories_title">Quelle catégorie correspond le mieux à votre demande ?</string>
+    <string name="new_request_category_offerings_header">Catégorie : %1$s</string>
+    <string name="not_found_offering_search_result">Afficher d’autres options</string>
+    <string name="not_found_offering_categories">Nous ne trouvez toujours pas ce que vous recherchez ?</string>
+    <string name="new_request_general_request_header">Demande générale</string>
+
+</resources>

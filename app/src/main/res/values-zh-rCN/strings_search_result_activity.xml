@@ -1,0 +1,4 @@
+<resources>
+    <string name="no_search_results_first_line">您的搜索</string>
+    <string name="no_search_results_second_line">未生成结果</string>
+</resources>

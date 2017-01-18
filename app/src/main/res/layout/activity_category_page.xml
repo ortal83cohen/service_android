@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sbmobile="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:id="@+id/category_page"
+    >
+
+    <RelativeLayout
+        android:id="@+id/category_page_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_page_header_background_color"
+        android:elevation="4dp"
+        android:orientation="horizontal">
+<FrameLayout
+    android:id="@+id/space_holder"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/status_bar_height"></FrameLayout>
+        <ImageButton
+            android:id="@+id/category_page_header_back"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_centerVertical="true"
+            android:background="@color/category_page_header_background_color"
+            android:contentDescription="@string/back_icon_content"
+            android:paddingEnd="19dp"
+            android:layout_below="@+id/space_holder"
+            android:paddingLeft="16dp"
+            android:paddingRight="19dp"
+            android:paddingStart="16dp"
+            android:src="@drawable/back" />
+
+        <com.hpe.sb.mobile.app.common.uiComponents.metricFont.MetricFontCustomTextView
+            android:id="@+id/category_page_header_title"
+            style="@style/TextStyle.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@+id/space_holder"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/category_page_header_back"
+            android:layout_toRightOf="@+id/category_page_header_back"
+            android:ellipsize="end"
+            android:gravity="fill"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColor="@color/category_page_header_title_color"
+            android:textSize="20sp"
+            android:typeface="sans"
+            sbmobile:cleanHtmlTags="true"
+            sbmobile:metricFontStyle="Regular" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/category_page_related_entities_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category_page_header"
+
+        android:background="@android:color/white">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.hpe.sb.mobile.app.common.uiComponents.gifView.CustomGifView
+        android:id="@+id/loading_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white" />
+</RelativeLayout>

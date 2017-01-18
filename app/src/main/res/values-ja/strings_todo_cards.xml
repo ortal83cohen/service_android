@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="deny">否認</string>
+    <string name="approve">承認</string>
+    <string name="requestedBy">依頼者:</string>
+    <string name="request">依頼</string>
+    <string name="approvalType">承認タイプ:</string>
+    <string name="approvalTask">承認タスク:</string>
+    <string name="pendingApproval">承認待ち</string>
+    <string name="pendingYourApproval">あなたの承認待ち</string>
+
+    <string name="provideMoreInformation">詳細な情報の提供</string>
+    <string name="openedFor">オープンの対象者</string>
+    <string name="openedForDotSeparator">•</string>
+    <string name="new_comment">新規コメント</string>
+    <string name="submitted">提出済み</string>
+    <string name="comment">コメント</string>
+    <string name="markAsSolved">解決済みにする</string>
+
+    <string name="activeRequest">あなたの依頼</string>
+
+    <string name="requestResolved">依頼は解決されました</string>
+    <string name="accept">承認</string>
+    <string name="reject">却下</string>
+
+    <string name="solution">解決策:</string>
+    <string name="solution_provided">解決策が提供されました</string>
+
+
+    <string name="show_more">詳細を表示</string>
+    <string name="show_less">詳細を非表示</string>
+    <string name="description">説明</string>
+    <string name="opened_for">• オープンの対象者</string>
+    <string name="interaction_history">インタラクション履歴 (%s)</string>
+    <string name="failed_to_add_comment_msg">"入力したコメントは依頼に追加されませんでした。もう一度やり直してください。"</string>
+
+
+    <string name="title_activity_details">依頼の詳細</string>
+    <string name="title_additional_details">追加の詳細</string>
+    <string name="see_request_details">追加の詳細</string>
+
+    <!--animations-->
+    <string name="request_accepted">解決策は承認されました</string>
+    <string name="request_rejected">解決策は却下されました</string>
+    <string name="request_approved">依頼は承認されました</string>
+    <string name="request_denied">依頼は否認されました</string>
+    <string name="request_solved">依頼は解決されました</string>
+    <string name="deny_task_dialog_fill_denial_reason">否認の理由を入力してください</string>
+    <string name="deny_task_dialog_comment_hint">タップしてテキストを入力</string>
+    <string name="deny_task_dialog_cancel_button_text">キャンセル</string>
+    <string name="deny_task_dialog_done_button_text">完了</string>
+
+    <!--date time-->
+    <string name="date_time_format_days_ago">%s 日前</string>
+    <string name="date_time_format_single_day_ago">%s 日前</string>
+    <string name="date_time_format_hours_ago">%s 時間前</string>
+    <string name="date_time_format_single_hour_ago">%s 時間前</string>
+    <string name="date_time_format_min_ago">%s 分前</string>
+    <string name="date_time_format_sec_ago">%s 秒前</string>
+</resources>

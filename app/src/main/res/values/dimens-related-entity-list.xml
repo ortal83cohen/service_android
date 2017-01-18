@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="related_entity_list_item_image_size">40dp</dimen>
+    <dimen name="related_entity_list_item_type_padding_top_bottom">2dp</dimen>
+    <dimen name="related_entity_list_item_type_padding_right_left">6dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_screen_logo">Splash screen logo</string>
+    <string name="splash_screen_error_unable_to_initialize_app">Unable to start application</string>
+    <string name="application_start_error">Application could not start, please contact your IT</string>
+</resources>

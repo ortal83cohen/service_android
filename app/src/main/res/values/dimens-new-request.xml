@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="new_request_header">48dp</dimen>
+    <dimen name="new_request_chosen_related_entity_margin_sum">52dp</dimen>
+
+</resources>

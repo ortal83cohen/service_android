@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Do not use this file! You should add a new file under res/values with the name strings_<your activity / fragment name>.xml -->
+
+
+
+    <string name="hello_world">ようこそ!</string>
+    <string name="action_settings">設定</string>
+    <string name="action_logout">ログアウト</string>
+    <string name="get_request">クリックしてゲートウェイから依頼を取得</string>
+    <string name="title_activity_rest_example">REST サンプルアクティビティ</string>
+    <string name="navigate_to_rest_activity_example">REST サンプルアクティビティに切り替え</string>
+    <string name="category_page_related_entity_image_content">カテゴリページの関連エンティティの画像</string>
+    <string name="category_page_related_entity_popular_image_content">カテゴリページの関連エンティティの人気画像</string>
+    <string name="back_icon_content">戻る</string>
+    <string name="filter_icon_content">フィルタ</string>
+    <string name="search_icon_content">検索</string>
+    <string name="refresh_cards_example">カードのリフレッシュ</string>
+    <string name="search">検索</string>
+    <string name="validation">検証</string>
+    <string name="service_badge_text">サービス</string>
+    <string name="support_badge_text">サポート</string>
+    <string name="article_badge_text">記事</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="general_error">問題が発生しました</string>
+
+    <!-- Browse categories-->
+    <string name="categories_pane_title">カテゴリの参照</string>
+
+    <string name="new_updates_available">新しいアップデートが利用可能</string>
+
+    <string name="welcome_text">ようこそ</string>
+    <string name="submitting">送信しています</string>
+    <string name="no_internet_connection">接続がありません。もう一度やり直してください</string>
+    <string name="upgrade_required_good_news">お知らせ</string>
+    <string name="upgrade_required_new_version_available">新しいバージョンが利用できるようになりました</string>
+    <string name="upgrade_required_update_app">アプリの更新</string>
+    <string name="unable_to_log_out">ログアウトできません</string>
+
+
+</resources>

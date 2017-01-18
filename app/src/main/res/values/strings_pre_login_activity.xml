@@ -1,0 +1,19 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="load_url">Activate</string>
+    <string name="type_url_done">Done</string>
+    <string name="title_activity_pre_login">PreLoginActivity</string>
+    <string name="welcome_pre_login">Welcome to Service Anywhere</string>
+    <string name="scan_QR_message_pre_login">To activate app, scan the activation QR from the Portal</string>
+    <string name="scan_QR_button_pre_login">Scan QR</string>
+    <string name="dont_have_QR_pre_login">Don\'t have activation QR?</string>
+    <string name="get_QR_info_pre_login">Open the Portal and select Activate mobile app from the menu and follow the QR instructions</string>
+    <string name="use_manual_URL_pre_login">Or use the manual activation URL</string>
+    <string name="type_URL_pre_login">Type activation URL</string>
+    <string name="scan_qr_code_prompt">Place a barcode inside the rectangle to scan it.</string>
+    <string name="tenant_unsupported_on_mobile_msg_txt">The mobile app is not currently enabled for your HPE Service Anywhere portal. For details, contact your IT.</string>
+    <string name="tenant_unsupported_on_mobile_button_txt">Done</string>
+    <string name="no_tenant_id_error">Tenant id is not specified!</string>
+    <string name="malformed_url_error_header">Check URL link</string>
+    <string name="malformed_url_error">Something is wrong in the URL link.\nCheck it and try again.\n\nIf the problem persists, contact your administrator.</string>
+    <string name="malformed_url_error_done">Done</string>
+</resources>

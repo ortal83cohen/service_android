@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="describe_new_request">Serve aiuto?</string>
+    <string name="description_hint">Inserisci testo</string>
+    <string name="next_button">AVANTI</string>
+    <string name="speech_prompt">Qual è il problema?</string>
+    <string name="yes_or_no">Sì o no?</string>
+    <string name="did_you_mean">"forse intendevi %1$s, rispondi sì o no"</string>
+    <string name="speech_not_supported">L\'inserimento vocale non è supportato dal tuo dispositivo\"</string>
+    <string name="microphone_button">Pulsante microfono</string>
+    <string name="title_activity_new_request">NUOVA RICHIESTA</string>
+    <string name="select_offering">Questi dati sono utili? Tocca un\'opzione</string>
+    <string name="almost_there">CI SIAMO QUASI!</string>
+    <string name="all_done">Vai su per rivedere i dettagli della richiesta</string>
+    <string name="or">OPPURE</string>
+    <string name="submit_request">INVIA RICHIESTA</string>
+    <string name="request_submitted_text">LA RICHIESTA È STATA INVIATA</string>
+    <string name="created_request_id">Richiesta n.
+        <xliff:g id="requestId" example="64726655">%1$s</xliff:g>
+    </string>
+    <string name="tracking_page_button">VEDI RICHIESTA</string>
+    <string name="home_button">FINE</string>
+    <string name="new_request_header_text">NUOVA RICHIESTA</string>
+    <string name="new_request_unsaved_changes_warning">La richiesta andrà persa</string>
+    <string name="new_request_categories_title">Quale categoria è più adatta alla tua richiesta?</string>
+    <string name="new_request_category_offerings_header">Categoria: %1$s</string>
+    <string name="not_found_offering_search_result">Mostra altre opzioni</string>
+    <string name="not_found_offering_categories">Non riesci comunque a trovare quello che cerchi?</string>
+    <string name="new_request_general_request_header">Richiesta generica</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Do not use this file! You should add a new file under res/values with the name strings_<your activity / fragment name>.xml -->
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Log out</string>
+    <string name="switch_tenant">Switch tenant</string>
+    <string name="get_request">Click to get request from gateway</string>
+    <string name="title_activity_rest_example">Rest example activity</string>
+    <string name="navigate_to_rest_activity_example">Switch to rest example activity</string>
+    <string name="category_page_related_entity_image_content">category page related_entity image</string>
+    <string name="category_page_related_entity_popular_image_content">category page related entity popular image</string>
+    <string name="back_icon_content">back</string>
+    <string name="filter_icon_content">filter</string>
+    <string name="search_icon_content">search</string>
+    <string name="refresh_cards_example">Refresh Cards</string>
+    <string name="search">Search</string>
+    <string name="validation">VALIDATION</string>
+    <string name="service_badge_text">SERVICE</string>
+    <string name="support_badge_text">SUPPORT</string>
+    <string name="article_badge_text">ARTICLE</string>
+    <string name="news_badge_text">NEWS</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="general_error">Oops! something went terribly wrong</string>
+
+    <!-- Browse categories-->
+    <string name="categories_pane_title">Browse categories</string>
+
+    <string name="new_updates_available">New updates available</string>
+
+    <string name="welcome_text">welcome</string>
+    <string name="submitting">Submitting</string>
+    <string name="upgrade_required_good_news">Good news!</string>
+    <string name="upgrade_required_new_version_available">New version is available</string>
+    <string name="upgrade_required_update_app">update app</string>
+    <string name="unable_to_log_out">Unable to Log out</string>
+    <string name="log_in">Log in</string>
+
+    <string name="open_with">Open page with</string>
+    <string name="changing_destination">CHANGING DESTINATION?</string>
+    <string name="you_re_about_to_activate_a_different_portal">You’re about to activate a different portal.</string>
+    <string name="you_will_have_to_log_in_again">You will have to log in again.</string>
+    <string name="stay_here_or_change_to_different_portal">Stay here? Or change to different portal?</string>
+    <string name="unknown_category_id">Unknown Category id</string>
+    <string name="you_are_following_this_request">You are following this request</string>
+
+    <string name="title_activity_page_not_found">PageNotFoundActivity</string>
+    <string name="title_activity_page_not_permitted">PageNotPermittedActivity</string>
+
+</resources>

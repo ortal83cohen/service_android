@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page_not_found_title_line_1">WE HAVE LANDED IN</string>
+    <string name="page_not_found_title_line_2">UNCHARTED TERRITORY</string>
+    <string name="page_not_found_line">The link you used may be invalid.</string>
+    <string name="page_not_found_action">RETURN HOME</string>
+
+</resources>
